@@ -344,6 +344,275 @@ body {
 /* /TOP CATEGORIES */
 
 
+/* CAT3 */
+.cat-3{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 10%);
+    border-top: 2px solid #E4811C;
+    border-left: 1px solid #eaeaea;
+    border-radius: 5px;
+    overflow: auto;
+    
+}
+/* title */
+.block-head {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eaeaea;
+    background: #fbfbfb;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.block-head .block-title {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.block-title div a{
+    color: #212529;
+    font-size: 16px;
+}
+/* /title */
+
+/* owl prev-next */
+.owl-carousel .owl-nav button.owl-prev{
+    left: -10px;
+    top: 40%;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: -10px;
+    top: 40%;
+}
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover {
+    background-color: #5a88ca;
+    border-color: #5a88ca;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    color: #666666;
+    background-color: white;
+    line-height: 18px;
+    display: inline-block;
+    border-radius: 90%;
+    font-size: 1;
+}
+/* /owl prev-next */
+
+.owl-carousel .owl-item .product{
+    float: left;
+    margin: 8px 28px;
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    overflow: hidden;
+    list-style: none;
+} 
+.owl-carousel .owl-item .product .product-container {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 57px;
+}
+.owl-carousel .owl-item .product .product-thumb {
+    position: relative;
+}
+.owl-carousel .owl-item .product .product-thumb a.product-img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.owl-item a{
+    color: #333;
+    text-decoration: none;
+}
+.owl-item a:hover, a:focus, a:active {
+    color: #5a88ca;
+    text-decoration: none;
+}
+
+.owl-item .product .btn-quick-view {
+    width: 42px;
+    height: 42px;
+    background: #5a88ca;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-image: url("../images/eye icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 0;
+    border-radius: 90%;
+    opacity: 0;
+}
+.product .product-status {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 17px;
+    color: #fff;
+}
+.product .product-status .new {
+    background: #ffc000;
+}
+.product .product-status span {
+    float: left;
+    height: 17px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.product .product-status .sale {
+    background: #ff4318;
+}
+.product .product-right {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    bottom: -65px;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.5s ease-out 0s !important;
+    z-index: 2;
+    overflow: hidden;
+}
+/* PRIC */
+.product-price {
+    font-weight: bold;
+    color: #ffb424;
+}
+.product .product-price-old {
+    padding-left: 15px;
+    color: #999999;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+/* /PRIC */
+/* STAR */
+.product .product-star {
+    font-size: 12px;
+    color: #ccc;
+}
+/* /STAR */
+/*  wishlist and comparre   */
+.product .btn-add-wishlist {
+    transition: all 1s;
+    width: 20px;
+    height: 34px;
+    background: url("../images/wishlist-icon.png") no-repeat left center;
+    font-size: 0px;
+    float: left;
+    margin-right: 15px;
+}
+.product .btn-add-wishlist:hover {
+    background: url("../images/wishlist-icon.png") no-repeat right;
+}
+.product .btn-add-comparre {
+    transition: all 1s;
+    width: 18px;
+    height: 34px;
+    background: url("../images/compare-icon.png") no-repeat left center;
+    font-size: 0px;
+    float: left;
+    margin-right: 15px;
+}
+.product .btn-add-comparre:hover {
+    background: url("../images/compare-icon.png") no-repeat right;
+}
+/*  /wishlist and comparre   */
+
+/* button buy - cart */
+.product .button-radius {
+    position: relative;
+    border: 1px solid #eaeaea;
+    padding: 1px;
+    min-height: 34px;
+    background: #fff;
+    display: inline-block;
+    width: auto;
+    line-height: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin: 0;
+    color: #666666;
+    border-radius: 6px;
+    transition: all 1s ease;
+    font-size: 14px;
+}
+.product .button-radius:hover {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.product .button-radius .icon {
+    transition: all 1s ease-out;
+    position: absolute;
+    top: 2px;
+    margin-left: 28px;
+    overflow: hidden;
+}
+.product .button-radius:hover .icon {
+    left: 100%;
+    margin-left: -31px;
+}
+.product .btn-add-cart .icon:before {
+    content: ' ';
+    background-image: url("../images/cart-icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.product .button-radius .icon:before {
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    background-color: #5a88ca;
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    transition: all 1s ease-out;
+}
+/* /button buy - cart */
+.owl-carousel .owl-item :hover .product .product-right {
+    bottom: 1px;
+}
+.product .product-container:hover .product-thumb .product-img:before{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease-out 0s;
+    background: rgba(0, 0, 0, 0.2);
+}
+.product .product-thumb a.product-img:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0);
+}
+.product .product-container:hover .btn-quick-view {
+    opacity: 1;
+}
+/* /CAT3 */
+
+
+
 /* /MAIN */
 
 
