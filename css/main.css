@@ -417,6 +417,7 @@ body {
 }
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
     position: absolute;
+    outline: none;
     width: 20px;
     height: 20px;
     text-align: center;
@@ -427,6 +428,9 @@ body {
     display: inline-block;
     border-radius: 90%;
     font-size: 1;
+}
+.owl-theme .owl-dots .owl-dot{
+    outline: none;
 }
 /* /owl prev-next */
 
