@@ -360,44 +360,6 @@ body {
     color: black;
 }
 
-#newArrival.swiper-container {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#newArrival .swiper-slide {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    display: flex;
-}
-
-.newArrial .swiper-slide img {
-    width: 100%;
-    height: 500px;
-}
-
-.newArrial .slider-arrow {
-    color: #E4811C;
-}
-
-.newArrial.swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
-    background: #E4811C;
-}
-
 .product-grid {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
