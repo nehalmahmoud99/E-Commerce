@@ -348,13 +348,6 @@ body {
 }
 
 
-/* .style {
-    width: 200px;
-    margin-right: 10px;
-}
- */
-
-
 }
 #newArrival .h3 {
     margin-top: 5px;
@@ -695,6 +688,25 @@ body {
 }
 
 /* deal of the day*/
+
+/*cat 1*/
+.Electronics {
+    padding: 20px;
+    position: relative;
+    width: 400px;
+}
+.Electronics a {
+    color: black;
+    font-size: 15px;
+}
+.Electronics h3 {
+    margin-top: 10px;
+}
+.Electronics a:hover {
+    color: black;
+}
+
+/*/car1*/
 
 /* CAT3 */
 .cat-3 {
