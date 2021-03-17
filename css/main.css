@@ -570,7 +570,7 @@ body {
 }
 .product-grid .product-image img {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 .product-discount-label {
     color: rgb(231, 136, 12);
@@ -693,6 +693,8 @@ body {
         transform: scaleX(1);
     }
 }
+
+/* deal of the day*/
 
 /* CAT3 */
 .cat-3 {
