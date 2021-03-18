@@ -339,6 +339,13 @@ body {
     text-decoration: none;
 }
 
+#ads.video {
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+    max-height: 200px;
+}
+
 
 /* /TOP CATEGORIES */
 
