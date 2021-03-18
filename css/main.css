@@ -560,11 +560,6 @@ body {
     color: black;
 }
 
-.style {
-    width: 250px;
-    margin-right: 10px;
-}
-
 .product-grid {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
@@ -1483,7 +1478,7 @@ a:active {
 }
 
 .cards-container .card .product-button .icons a {
-    =======>>>>>>>Stashed changes font-size: 40px;
+    font-size: 40px;
     color: #ffb424;
 }
 
